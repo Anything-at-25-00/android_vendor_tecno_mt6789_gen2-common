@@ -37,6 +37,7 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/mt6789_gen2-common/proprietary/vendor/bin/bt_dump:$(TARGET_COPY_OUT_VENDOR)/bin/bt_dump \
     vendor/tecno/mt6789_gen2-common/proprietary/vendor/bin/ccci_mdinit:$(TARGET_COPY_OUT_VENDOR)/bin/ccci_mdinit \
     vendor/tecno/mt6789_gen2-common/proprietary/vendor/bin/ccci_rpcd:$(TARGET_COPY_OUT_VENDOR)/bin/ccci_rpcd \
+    vendor/tecno/mt6789_gen2-common/proprietary/vendor/bin/chg_sence:$(TARGET_COPY_OUT_VENDOR)/bin/chg_sence \
     vendor/tecno/mt6789_gen2-common/proprietary/vendor/bin/epdg_wod:$(TARGET_COPY_OUT_VENDOR)/bin/epdg_wod \
     vendor/tecno/mt6789_gen2-common/proprietary/vendor/bin/fuelgauged:$(TARGET_COPY_OUT_VENDOR)/bin/fuelgauged \
     vendor/tecno/mt6789_gen2-common/proprietary/vendor/bin/fuelgauged_nvram:$(TARGET_COPY_OUT_VENDOR)/bin/fuelgauged_nvram \
@@ -73,6 +74,7 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/mt6789_gen2-common/proprietary/vendor/bin/nvram_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/nvram_daemon \
     vendor/tecno/mt6789_gen2-common/proprietary/vendor/bin/rcs_volte_stack:$(TARGET_COPY_OUT_VENDOR)/bin/rcs_volte_stack \
     vendor/tecno/mt6789_gen2-common/proprietary/vendor/bin/rt5512_calibration:$(TARGET_COPY_OUT_VENDOR)/bin/rt5512_calibration \
+    vendor/tecno/mt6789_gen2-common/proprietary/vendor/bin/smartcharging:$(TARGET_COPY_OUT_VENDOR)/bin/smartcharging \
     vendor/tecno/mt6789_gen2-common/proprietary/vendor/bin/thermal_core:$(TARGET_COPY_OUT_VENDOR)/bin/thermal_core \
     vendor/tecno/mt6789_gen2-common/proprietary/vendor/bin/tranlog:$(TARGET_COPY_OUT_VENDOR)/bin/tranlog \
     vendor/tecno/mt6789_gen2-common/proprietary/vendor/bin/tranlogconfig:$(TARGET_COPY_OUT_VENDOR)/bin/tranlogconfig \
@@ -99,6 +101,7 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/mt6789_gen2-common/proprietary/vendor/etc/init/android.hardware.neuralnetworks-shim-service-mtk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks-shim-service-mtk.rc \
     vendor/tecno/mt6789_gen2-common/proprietary/vendor/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc \
     vendor/tecno/mt6789_gen2-common/proprietary/vendor/etc/init/android.hardware.security.keymint-service.trustonic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service.trustonic.rc \
+    vendor/tecno/mt6789_gen2-common/proprietary/vendor/etc/init/chg_sence_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/chg_sence_init.rc \
     vendor/tecno/mt6789_gen2-common/proprietary/vendor/etc/init/fuelgauged_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_init.rc \
     vendor/tecno/mt6789_gen2-common/proprietary/vendor/etc/init/fuelgauged_nvram_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_nvram_init.rc \
     vendor/tecno/mt6789_gen2-common/proprietary/vendor/etc/init/gsm0710muxd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/gsm0710muxd.rc \
@@ -108,6 +111,7 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/mt6789_gen2-common/proprietary/vendor/etc/init/init.cccifsd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccifsd.rc \
     vendor/tecno/mt6789_gen2-common/proprietary/vendor/etc/init/init.cccimdinit.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccimdinit.rc \
     vendor/tecno/mt6789_gen2-common/proprietary/vendor/etc/init/init.cccirpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccirpcd.rc \
+    vendor/tecno/mt6789_gen2-common/proprietary/vendor/etc/init/init.charger.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.charger.rc \
     vendor/tecno/mt6789_gen2-common/proprietary/vendor/etc/init/init.connfem.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.connfem.rc \
     vendor/tecno/mt6789_gen2-common/proprietary/vendor/etc/init/init.gps_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gps_drv.rc \
     vendor/tecno/mt6789_gen2-common/proprietary/vendor/etc/init/init.gps_pwr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gps_pwr.rc \
@@ -133,6 +137,7 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/mt6789_gen2-common/proprietary/vendor/etc/init/muxreport.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/muxreport.rc \
     vendor/tecno/mt6789_gen2-common/proprietary/vendor/etc/init/netdagent.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netdagent.rc \
     vendor/tecno/mt6789_gen2-common/proprietary/vendor/etc/init/nvram_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nvram_daemon.rc \
+    vendor/tecno/mt6789_gen2-common/proprietary/vendor/etc/init/smartcharging_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/smartcharging_init.rc \
     vendor/tecno/mt6789_gen2-common/proprietary/vendor/etc/init/tee.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tee.rc \
     vendor/tecno/mt6789_gen2-common/proprietary/vendor/etc/init/tetheroffloadservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tetheroffloadservice.rc \
     vendor/tecno/mt6789_gen2-common/proprietary/vendor/etc/init/tnev.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tnev.rc \
@@ -377,6 +382,7 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/mt6789_gen2-common/proprietary/vendor/lib64/librgbwlightsensor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librgbwlightsensor.so \
     vendor/tecno/mt6789_gen2-common/proprietary/vendor/lib64/librilfusion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librilfusion.so \
     vendor/tecno/mt6789_gen2-common/proprietary/vendor/lib64/librpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librpc.so \
+    vendor/tecno/mt6789_gen2-common/proprietary/vendor/lib64/libsmartcharging.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsmartcharging.so \
     vendor/tecno/mt6789_gen2-common/proprietary/vendor/lib64/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefrighthw.so \
     vendor/tecno/mt6789_gen2-common/proprietary/vendor/lib64/libstorage_otp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstorage_otp.so \
     vendor/tecno/mt6789_gen2-common/proprietary/vendor/lib64/libsysenv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsysenv.so \
